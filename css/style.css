@@ -108,6 +108,24 @@ body {
     
 }
 
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #616289;
+    padding: 2rem 0 2rem 1rem;
+    color: #F1F1F1;
+}
+
+.contact-container > h4 {
+    text-decoration: underline;
+    margin: 0;
+}
+
+.contact-info > a {
+    color: #F1F1F1;
+}
+
 .footer-container {
     background: #1b1b27;
     display: flex;
@@ -205,6 +223,11 @@ a:hover, a:active {
     background: #74b44a;
     color: #F1F1F1;
     border: 2px solid #74b44a;
+}
+
+.contact-info > a:hover, .contact-info > a:active {
+    color: #00000c;
+    text-decoration: underline;
 }
 
 
@@ -325,6 +348,14 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+    }
+
+    .contact-container {
+        align-items: center;
+    }
+
+    .contact-info {
+        text-align: center;
     }
 
     .main-nav {
